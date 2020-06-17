@@ -18,7 +18,8 @@ class App < Sinatra::Base
       'Joan of Arc', 'Malala Yousafzai', 'Sojourner Truth']
 
       erb :friends
-      #we are setting our friends variable equal to an array and then we are rendering the friends.erb file to show all the friends
+      #we are setting our friends variable equal to an array and then we are
+      #rendering the friends.erb file to show all the friends
 
   end
 end
